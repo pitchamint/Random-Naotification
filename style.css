@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #222;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+.btn{
+    background: skyblue;
+    color: black;
+    font-weight: bold;
+    padding: 1rem;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+}
+.btn:active{
+    transform: scale(0.98);
+}
+.container{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.notification{
+    background: pink;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    margin: 0.5rem;
+    color: black;
+}
